@@ -1,0 +1,32 @@
+.contact-data-block {
+  display: flex;
+  justify-content: flex-end; }
+  .contact-data-block__wrapper {
+    min-width: 400px;
+    max-width: 50%; }
+    @media screen and (max-width: 800px) {
+      .contact-data-block__wrapper {
+        max-width: 100%;
+        min-width: 100%; } }
+  .contact-data-block__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px; }
+    .contact-data-block__item:last-child {
+      margin-bottom: 0; }
+
+.summary-qualification-block {
+  margin-top: 4em; }
+
+.education-item, .language-item {
+  margin-bottom: 20px; }
+  .education-item:last-child, .language-item:last-child {
+    margin-bottom: 0; }
+  .education-item .line, .language-item .line {
+    display: block; }
+    .education-item .line--bold, .language-item .line--bold {
+      font-weight: bold; }
+
+/*# sourceMappingURL=general.component.css.map */

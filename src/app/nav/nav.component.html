@@ -1,0 +1,41 @@
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo">{{appTitle}}</a>
+    <nav class="navigation">
+      <ul>
+        <li>
+          <button mat-button class="custom-btn">
+            <a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">General</a>
+          </button>
+
+        </li>
+        <li>
+          <button mat-button class="custom-btn">
+            <a routerLink="/skills" routerLinkActive="active-link">Skills</a>
+          </button>
+        </li>
+        <li>
+          <button mat-button class="custom-btn">
+            <a routerLink="/work-experience" routerLinkActive="active-link">Work Experience</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <nav class="mobile-nav">
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item class="custom-btn">
+          <a routerLink="/" routerLinkActive="active-link" class="mobile-menu-item" [routerLinkActiveOptions]="{exact:true}">General</a>
+        </button>
+        <button mat-menu-item class="custom-btn">
+          <a routerLink="/skills" routerLinkActive="active-link" class="mobile-menu-item">Skills</a>
+        </button>
+        <button mat-menu-item class="custom-btn">
+          <a routerLink="/work-experience" routerLinkActive="active-link" class="mobile-menu-item">Work Experience</a>
+        </button>
+      </mat-menu>
+    </nav>
+  </div>
+</header>

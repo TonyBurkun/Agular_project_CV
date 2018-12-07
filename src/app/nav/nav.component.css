@@ -1,0 +1,53 @@
+header {
+  background: #215868;
+  overflow: hidden; }
+  header .logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center; }
+  header nav {
+    justify-self: right; }
+    header nav ul {
+      overflow: hidden;
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      header nav ul li {
+        float: left; }
+        header nav ul li button {
+          padding: 0;
+          overflow: hidden; }
+    header nav a {
+      padding: 1.5em;
+      text-transform: uppercase;
+      font-size: .8em;
+      font-family: inherit; }
+      header nav a.active-link {
+        color: #9DD9D2; }
+      header nav a:hover {
+        background: #497683; }
+  @media screen and (max-width: 900px) {
+    header .navigation {
+      display: none; } }
+  header .mobile-nav {
+    color: #fff;
+    display: none; }
+    @media screen and (max-width: 900px) {
+      header .mobile-nav {
+        display: block; } }
+
+.mat-menu-item {
+  padding: 0; }
+
+.mobile-menu-item {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+  color: #000; }
+  .mobile-menu-item:active {
+    color: #000; }
+  .mobile-menu-item:hover {
+    color: #215868; }
+
+/*# sourceMappingURL=nav.component.css.map */

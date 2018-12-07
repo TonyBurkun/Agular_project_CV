@@ -1,0 +1,101 @@
+.skills-lang__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+.skills-lang .text-block {
+  width: 50%;
+  align-self: center; }
+  @media screen and (max-width: 980px) {
+    .skills-lang .text-block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; } }
+  @media screen and (max-width: 800px) {
+    .skills-lang .text-block {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; } }
+  @media screen and (max-width: 800px) {
+    .skills-lang .text-block div {
+      align-self: center; } }
+  .skills-lang .text-block .lang-list li {
+    margin-top: 10px; }
+.skills-lang .chart-block {
+  width: 50%; }
+  @media screen and (max-width: 980px) {
+    .skills-lang .chart-block {
+      width: 100%; } }
+
+.dev-tools-section {
+  padding-bottom: 100px; }
+  .dev-tools-section .section-title {
+    margin-bottom: 50px; }
+  .dev-tools-section .logos-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .dev-tools-section .logos-block .logo-item {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      opacity: .5;
+      transition: .5s; }
+      .dev-tools-section .logos-block .logo-item:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.1); }
+    .dev-tools-section .logos-block .item-1 {
+      background: url("../../assets/images/webstorm.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-2 {
+      background: url("../../assets/images/Sublime.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-3 {
+      background: url("../../assets/images/Jira.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-4 {
+      background: url("../../assets/images/MeisterTask.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-5 {
+      background: url("../../assets/images/Gulp.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-6 {
+      background: url("../../assets/images/Git.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-7 {
+      background: url("../../assets/images/GitHub.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-8 {
+      background: url("../../assets/images/Bitbucket.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-9 {
+      background: url("../../assets/images/Photoshop.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-10 {
+      background: url("../../assets/images/Avocode.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-11 {
+      background: url("../../assets/images/Postman.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-12 {
+      background: url("../../assets/images/Navicat.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-13 {
+      background: url("../../assets/images/Heroku.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-14 {
+      background: url("../../assets/images/Firebase.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-15 {
+      background: url("../../assets/images/Parallels.png") no-repeat center center;
+      background-size: contain; }
+    .dev-tools-section .logos-block .item-16 {
+      background: url("../../assets/images/Virtualbox.png") no-repeat center center;
+      background-size: contain; }
+
+/*# sourceMappingURL=skills.component.css.map */
