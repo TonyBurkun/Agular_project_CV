@@ -3,11 +3,12 @@ import * as am4core from '@amcharts/amcharts4/core';
 import * as am4maps from '@amcharts/amcharts4/maps';
 import am4geodata_worldLow from '@amcharts/amcharts4-geodata/worldLow';
 import am4themes_animated from '@amcharts/amcharts4/themes/animated';
-import am4themes_spiritedaway from '@amcharts/amcharts4/themes/spiritedaway';
+// import am4themes_spiritedaway from '@amcharts/amcharts4/themes/spiritedaway';
 
 
+// am4core.useTheme(am4themes_spiritedaway);
 am4core.useTheme(am4themes_animated);
-am4core.useTheme(am4themes_spiritedaway);
+am4core.unuseAllThemes();
 
 
 @Component({
@@ -44,7 +45,7 @@ export class MapComponent implements OnInit {
     polygonSeries.data = [{
       'id': 'UA',
       'name': 'Ukraine',
-      'fill': am4core.color('#880005')
+      'fill': am4core.color('#005967')
     }];
 
 
@@ -54,7 +55,6 @@ export class MapComponent implements OnInit {
 // Configure series
     const polygonTemplate = polygonSeries.mapPolygons.template;
     polygonTemplate.tooltipText = '{name}';
-    polygonTemplate.fill = chart.colors.getIndex(0);
 
     // Bind 'fill' property to 'fill' key in data
     polygonTemplate.propertyFields.fill = 'fill';

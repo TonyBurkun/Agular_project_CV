@@ -11,7 +11,7 @@ mat-expansion-panel {
 mat-expansion-panel-header {
   font: inherit;
   padding: 15px 20px;
-  height: auto; }
+  height: auto !important; }
 
 .work-exp-accordion {
   font-family: 'Ubuntu', sans-serif;
